@@ -1,0 +1,32 @@
+{
+  "name": "realmmanager",
+  "version": "1.0.0",
+  "description": "realm bot but local ig and without discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATXLtheAxolotl/RealmManager.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ATXLtheAxolotl/RealmManager/issues"
+  },
+  "homepage": "https://github.com/ATXLtheAxolotl/RealmManager#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@inquirer/select": "^0.0.20-alpha.0",
+    "axios": "^0.27.2",
+    "inquirer": "^8.2.4",
+    "prismarine-auth": "^1.5.1",
+    "prismarine-realms": "^1.1.0"
+  }
+}
