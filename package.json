@@ -26,6 +26,7 @@
     "@inquirer/select": "^0.0.20-alpha.0",
     "axios": "^0.27.2",
     "inquirer": "^8.2.4",
+    "pkg": "^5.6.0",
     "prismarine-auth": "^1.5.1",
     "prismarine-realms": "^1.1.0"
   }

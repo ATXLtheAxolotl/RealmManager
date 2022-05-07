@@ -1,6 +1,5 @@
 import { Authflow } from 'prismarine-auth'
 import { RealmAPI } from 'prismarine-realms'
-import axios from 'axios'
 const select = require('@inquirer/select');
 const inquirer = require('inquirer');
 
@@ -36,8 +35,9 @@ async function prompt() {
     api['rest'].post(`/worlds/${answer}`, {
         body: {
             name: name,
-            description: realms.find(realm => realm.id === answer).motd
+            
         }
+
     })
 }
 prompt()

@@ -105,3 +105,6 @@ dist
 
 #authentication/credentials
 auth
+index.js
+index-linux
+index-macos
